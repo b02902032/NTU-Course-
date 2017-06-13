@@ -3,9 +3,9 @@ import json
 with open('../data/doc_emotion.json') as f:
 	doc_emotion = json.load(f);
 
-f_output = open('../data/new_result_sweet.txt', 'w');
+f_output = open('../data/new_result_hard.txt', 'w');
 
-with open('../data/result_sweet2.txt') as f:
+with open('../data/result_hard.txt') as f:
 	while(True):
 		doc_id = f.readline();
 		if(not doc_id):
